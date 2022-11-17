@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'Ginto';
+  src: url('../public/fonts/Ginto.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('../public/fonts/whitney-medium.otf') format('opentype');
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #18191C;
+  color: #FFFFFF;
 }
 
 a {
@@ -23,4 +36,8 @@ a {
     color: white;
     background: black;
   }
+}
+
+:root{
+  --primary: #36393F;
 }
