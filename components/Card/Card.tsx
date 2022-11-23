@@ -3,7 +3,8 @@ import Icon from "../../public/images/server.svg"
 import MegaIcon from "../../public/images/mega.svg"
 import AnyDeskIcon from "../../public/images/anydesk.svg"
 import Image from "next/image"
-import internal from "stream"
+import Link from "next/link"
+
 
 export interface Props {
     unityName: string;
@@ -33,7 +34,9 @@ export default function Card(props: Props){
                         src={Icon} 
                         alt="Icon" 
                     />
-                    <button>Detalhes</button>
+                    <Link href={{pathname: "/unity", query: {cnes: props.cnes, unityName: props.unityName} }}>
+                        <button className={styles.btn}>Detalhes</button>
+                    </Link>
                 </div>
             </div>
         </div>

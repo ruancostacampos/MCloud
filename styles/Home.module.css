@@ -8,3 +8,11 @@
   padding: 10px 20px;
   margin-top: 20px;
 }
+
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}

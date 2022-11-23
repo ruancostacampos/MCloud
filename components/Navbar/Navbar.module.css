@@ -5,6 +5,12 @@
     justify-content: center;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -14,7 +20,7 @@
     background-color: var(--primary);
     border-radius: 10px;
     padding: 10px 20px;
-    
+    justify-content: space-between;
 }
 
 .container span{
@@ -24,7 +30,7 @@
     padding: 0 20px;
 }
 
-.navbar ul{
+.wrapper ul{
     display: flex;
     list-style: none;
     justify-content: center;
@@ -40,7 +46,7 @@
     border-radius: 4px;
 }
 
-.navbar li{
+.wrapper li{
     padding: 5px 20px;
     transition: all 0.3s ease-in-out;
 }
@@ -50,14 +56,4 @@
    margin: 0 10px;
    background-color: #404349;
    height: 50px;
-
 }
-
-/*position: relative;
-display: flex;
-top: 20px;
-margin: 10px 10px;
-width: calc(100% - 30px);
-height: 70px;
-background-color: #292B2F;
-border-radius: 10px;*/

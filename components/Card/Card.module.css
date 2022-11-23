@@ -52,3 +52,18 @@
     display: flex;
     justify-content: space-between;
 }
+
+.wrapButton a{
+    display: flex;
+    align-items: center;
+    size: fit-content;
+}
+
+.btn{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #3946d4;
+}

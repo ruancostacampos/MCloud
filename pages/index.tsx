@@ -14,10 +14,24 @@ export default function Home() {
       
       <main>
         <h2>Index.tsx</h2>
-        <Card unityName="Unidade de saúde de teste"
-          sync={false}
-          anydeskCount={2}
-          cnes="256484"/>
+        <div className={styles.cardContainer}>
+          <Card unityName="Unidade de saúde de teste"
+            sync={false}
+            anydeskCount={2}
+            cnes="256484"
+          />
+                  <Card unityName="Unidade de saúde de teste"
+            sync={false}
+            anydeskCount={2}
+            cnes="256484"
+          />
+                  <Card unityName="Unidade de saúde de teste"
+            sync={false}
+            anydeskCount={2}
+            cnes="256484"
+          />
+        </div>
+        
       </main>
       
     </div>

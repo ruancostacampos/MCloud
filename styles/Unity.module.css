@@ -1,0 +1,77 @@
+.container{
+    padding: 0 15px;
+  }
+  
+.container main{
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    align-items: top;
+    gap: 20px;
+}
+
+
+
+.cards table{
+    background-color: #202225;
+    border-radius: 10px;
+    padding: 10px; 
+    text-align: center;
+    width: 100%;
+}
+
+.cards table th{
+  border-bottom: solid #404349 1px;
+}
+
+.cards table td{
+  width: 50%;
+  border-bottom: solid #404349 1px;
+}
+
+.tableTittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #36393F;
+    border-radius: 10px;
+    height: fit-content;
+    line-height: 0;
+    padding: 0 10px;
+}
+  
+.infoCard{
+    background-color: #202225;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: fit-content;
+}
+
+.anydeskNumber{
+    display: flex;
+    gap: 10px;
+    border-bottom: solid #404349 1px;
+    width: auto !important;
+    align-items: center;
+}
+
+.copyIcon{
+    transition: 0.3s all;
+}
+
+.copyIcon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.anydeskNumber td{
+  display: flex;
+  width: auto !important;
+}
